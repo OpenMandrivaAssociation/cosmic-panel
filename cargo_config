@@ -1,0 +1,70 @@
+[source.crates-io]
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/DioxusLabs/taffy?rev=7781c70"]
+git = "https://github.com/DioxusLabs/taffy"
+rev = "7781c70"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/gfx-rs/wgpu?rev=20fda69"]
+git = "https://github.com/gfx-rs/wgpu"
+rev = "20fda69"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/jackpot51/rust-atomicwrites"]
+git = "https://github.com/jackpot51/rust-atomicwrites"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/cosmic-notifications"]
+git = "https://github.com/pop-os/cosmic-notifications"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/cosmic-protocols?rev=c8d3a1c"]
+git = "https://github.com/pop-os/cosmic-protocols"
+rev = "c8d3a1c"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/cosmic-text.git"]
+git = "https://github.com/pop-os/cosmic-text.git"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/glyphon.git?tag=v0.5.0"]
+git = "https://github.com/pop-os/glyphon.git"
+tag = "v0.5.0"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/launch-pad.git"]
+git = "https://github.com/pop-os/launch-pad.git"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/libcosmic"]
+git = "https://github.com/pop-os/libcosmic"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/smithay-clipboard?tag=pop-dnd-5"]
+git = "https://github.com/pop-os/smithay-clipboard"
+tag = "pop-dnd-5"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/softbuffer?tag=cosmic-4.0"]
+git = "https://github.com/pop-os/softbuffer"
+tag = "cosmic-4.0"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/window_clipboard.git?tag=pop-dnd-8"]
+git = "https://github.com/pop-os/window_clipboard.git"
+tag = "pop-dnd-8"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/smithay/smithay?rev=fe654453b032020cb26861a38b245ba12842ba8f"]
+git = "https://github.com/smithay/smithay"
+rev = "fe654453b032020cb26861a38b245ba12842ba8f"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/wash2/accesskit.git?branch=winit-0.29"]
+git = "https://github.com/wash2/accesskit.git"
+branch = "winit-0.29"
+replace-with = "vendored-sources"
+
+[source.vendored-sources]
+directory = "vendor"
