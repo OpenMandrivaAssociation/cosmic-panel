@@ -6,9 +6,8 @@ git = "https://github.com/DioxusLabs/taffy"
 rev = "7781c70"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/gfx-rs/wgpu?rev=20fda69"]
-git = "https://github.com/gfx-rs/wgpu"
-rev = "20fda69"
+[source."git+https://github.com/Smithay/client-toolkit//"]
+git = "https://github.com/Smithay/client-toolkit//"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
@@ -19,18 +18,18 @@ replace-with = "vendored-sources"
 git = "https://github.com/pop-os/cosmic-notifications"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-protocols?rev=1eaeece"]
+[source."git+https://github.com/pop-os/cosmic-protocols?rev=d218c76"]
 git = "https://github.com/pop-os/cosmic-protocols"
-rev = "1eaeece"
+rev = "d218c76"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/cosmic-text.git"]
 git = "https://github.com/pop-os/cosmic-text.git"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/glyphon.git?tag=v0.5.0"]
+[source."git+https://github.com/pop-os/glyphon.git?tag=iced-0.14-dev"]
 git = "https://github.com/pop-os/glyphon.git"
-tag = "v0.5.0"
+tag = "iced-0.14-dev"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/launch-pad.git"]
@@ -51,19 +50,24 @@ git = "https://github.com/pop-os/softbuffer"
 tag = "cosmic-4.0"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/window_clipboard.git?tag=pop-dnd-8"]
+[source."git+https://github.com/pop-os/window_clipboard.git?tag=pop-0.13"]
 git = "https://github.com/pop-os/window_clipboard.git"
-tag = "pop-dnd-8"
+tag = "pop-0.13"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/smithay/smithay?rev=fe654453b032020cb26861a38b245ba12842ba8f"]
+[source."git+https://github.com/pop-os/winit.git?tag=iced-xdg-surface-0.13"]
+git = "https://github.com/pop-os/winit.git"
+tag = "iced-xdg-surface-0.13"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/smithay/smithay?rev=df79eeb"]
 git = "https://github.com/smithay/smithay"
-rev = "fe654453b032020cb26861a38b245ba12842ba8f"
+rev = "df79eeb"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/wash2/accesskit.git?branch=winit-0.29"]
-git = "https://github.com/wash2/accesskit.git"
-branch = "winit-0.29"
+[source."git+https://github.com/wash2/accesskit?tag=iced-xdg-surface-0.13"]
+git = "https://github.com/wash2/accesskit"
+tag = "iced-xdg-surface-0.13"
 replace-with = "vendored-sources"
 
 [source.vendored-sources]
