@@ -6,8 +6,9 @@ git = "https://github.com/DioxusLabs/taffy"
 rev = "7781c70"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/Smithay/client-toolkit//"]
-git = "https://github.com/Smithay/client-toolkit//"
+[source."git+https://github.com/Smithay//client-toolkit/?rev=ca6a36e"]
+git = "https://github.com/Smithay//client-toolkit/"
+rev = "ca6a36e"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
@@ -25,6 +26,10 @@ replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/cosmic-text.git"]
 git = "https://github.com/pop-os/cosmic-text.git"
+replace-with = "vendored-sources"
+
+[source."git+https://github.com/pop-os/freedesktop-icons"]
+git = "https://github.com/pop-os/freedesktop-icons"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/glyphon.git?tag=iced-0.14-dev"]
