@@ -6,22 +6,22 @@ git = "https://github.com/DioxusLabs/taffy"
 rev = "7781c70"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/Smithay//client-toolkit/?rev=ca6a36e"]
+[source."git+https://github.com/Smithay//client-toolkit/?rev=4cf0def"]
 git = "https://github.com/Smithay//client-toolkit/"
-rev = "ca6a36e"
+rev = "4cf0def"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
 git = "https://github.com/jackpot51/rust-atomicwrites"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-notifications"]
-git = "https://github.com/pop-os/cosmic-notifications"
+[source."git+https://github.com/pop-os//cosmic-protocols?rev=67df697"]
+git = "https://github.com/pop-os//cosmic-protocols"
+rev = "67df697"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/cosmic-protocols?rev=d218c76"]
-git = "https://github.com/pop-os/cosmic-protocols"
-rev = "d218c76"
+[source."git+https://github.com/pop-os/cosmic-notifications"]
+git = "https://github.com/pop-os/cosmic-notifications"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/pop-os/cosmic-text.git"]
@@ -65,9 +65,9 @@ git = "https://github.com/pop-os/winit.git"
 tag = "iced-xdg-surface-0.13"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/smithay/smithay?rev=df79eeb"]
+[source."git+https://github.com/smithay/smithay?rev=796c41c"]
 git = "https://github.com/smithay/smithay"
-rev = "df79eeb"
+rev = "796c41c"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/wash2/accesskit?tag=iced-xdg-surface-0.13"]
