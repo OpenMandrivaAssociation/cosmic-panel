@@ -2,7 +2,7 @@
 
 Name:           cosmic-panel
 Version:        1.0.0
-%define beta beta.3
+%define beta beta.4
 Release:        %{?beta:0.%{beta}.}1
 Summary:        A panel for COSMIC DE
 Group:          Desktop/COSMIC
