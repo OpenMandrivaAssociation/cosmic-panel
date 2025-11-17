@@ -1,11 +1,6 @@
 [source.crates-io]
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/DioxusLabs/taffy?rev=7781c70"]
-git = "https://github.com/DioxusLabs/taffy"
-rev = "7781c70"
-replace-with = "vendored-sources"
-
 [source."git+https://github.com/jackpot51/rust-atomicwrites"]
 git = "https://github.com/jackpot51/rust-atomicwrites"
 replace-with = "vendored-sources"
@@ -58,9 +53,9 @@ git = "https://github.com/pop-os/window_clipboard.git"
 tag = "pop-0.13-2"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/pop-os/winit.git?tag=iced-xdg-surface-0.13"]
+[source."git+https://github.com/pop-os/winit.git?tag=iced-xdg-surface-0.13-rc"]
 git = "https://github.com/pop-os/winit.git"
-tag = "iced-xdg-surface-0.13"
+tag = "iced-xdg-surface-0.13-rc"
 replace-with = "vendored-sources"
 
 [source."git+https://github.com/smithay/smithay?rev=20d2dac"]
@@ -68,9 +63,9 @@ git = "https://github.com/smithay/smithay"
 rev = "20d2dac"
 replace-with = "vendored-sources"
 
-[source."git+https://github.com/wash2/accesskit?tag=iced-xdg-surface-0.13"]
+[source."git+https://github.com/wash2/accesskit?tag=iced-xdg-surface-0.13-rc"]
 git = "https://github.com/wash2/accesskit"
-tag = "iced-xdg-surface-0.13"
+tag = "iced-xdg-surface-0.13-rc"
 replace-with = "vendored-sources"
 
 [source.vendored-sources]
