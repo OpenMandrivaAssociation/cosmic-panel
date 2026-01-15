@@ -1,8 +1,8 @@
 %undefine _debugsource_packages
 
 Name:           cosmic-panel
-Version:        1.0.0
-%define beta beta.7
+Version:        1.0.2
+#define beta beta.7
 Release:        %{?beta:0.%{beta}.}1
 Summary:        A panel for COSMIC DE
 Group:          Desktop/COSMIC
@@ -12,6 +12,7 @@ Source0:        https://github.com/pop-os/cosmic-panel/archive/epoch-%{version}%
 Source1:        vendor.tar.xz
 Source2:        cargo_config
 
+BuildRequires:  make
 BuildRequires:  rust-packaging
 BuildRequires:  just
 BuildRequires:  pkgconfig
